@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio_tracker_new/static/css/main.dd622436.css",
+    "main.js": "/portfolio_tracker_new/static/js/main.93a9c505.js",
+    "index.html": "/portfolio_tracker_new/index.html",
+    "main.dd622436.css.map": "/portfolio_tracker_new/static/css/main.dd622436.css.map",
+    "main.93a9c505.js.map": "/portfolio_tracker_new/static/js/main.93a9c505.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd622436.css",
+    "static/js/main.93a9c505.js"
+  ]
+}
