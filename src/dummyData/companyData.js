@@ -1,5 +1,7 @@
 import apple_icon from "../assets/images/apple_logo.png";
 import apple_icon_line from "../assets/images/line_chart.png";
+import tesla_logo from "../assets/images/tesla_logo.png";
+import nvida_logo from "../assets/images/nvida_logo.png";
 
 export const CompanyData = [
     {
@@ -42,7 +44,7 @@ export const CompanyData = [
         id: 2,
         label: "TSLA",
         name: "Tesla Inc",
-        icon: apple_icon,
+        icon: tesla_logo,
         chart:apple_icon_line,
         per: "+0.16",
         value: 2,
@@ -78,7 +80,7 @@ export const CompanyData = [
         id: 3,
         label: "NVDA",
         name: "Nvidia Corporation",
-        icon: apple_icon,
+        icon: nvida_logo,
         chart:apple_icon_line,
         per: "+0.24",
         value: 3,

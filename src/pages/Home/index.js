@@ -94,14 +94,16 @@ function Home() {
                             <LineChart data={chartData} annotation={annotation} />
                         </Card>
                     </Col>
-                    <Col xs={24} sm={24} md={6} lg={6} xl={6} className="label">
+                    <Col xs={24} sm={24} md={6} lg={6} xl={6} className="label mt-10 detail">
                         <h3>Details</h3>
-                        <Card bordered={false} className="criclebox h-full">
+                        <Card bordered={false} className="criclebox ">
                             <Profile data={profile} />
+                           
                         </Card>
+                        <News data={newsData} />
                     </Col>
                 </Row>
-                <News data={newsData} />
+                
             </div>
         </>
     );

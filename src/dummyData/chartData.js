@@ -2,6 +2,7 @@ export const LineChartData = [
     {
         "id": "APPLE",
         "value":1,
+        "annotation":180,
         "color": "hsl(295, 70%, 50%)",
         "data": [
             {
@@ -97,6 +98,7 @@ export const LineChartData = [
     {
         "id": "TSLA",
         "value":2,
+        "annotation":230,
         "color": "green",
         "data": [
             {
@@ -192,6 +194,7 @@ export const LineChartData = [
     {
         "id": "NVIDIA",
         "value":3,
+        "annotation":430,
         "color": "hsl(295, 70%, 50%)",
         "data": [
             {

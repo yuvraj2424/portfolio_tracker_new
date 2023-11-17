@@ -1,5 +1,5 @@
 
-import { ResponsiveLine } from '@nivo/line';
+import { ResponsiveLine,Line } from '@nivo/line';
 import dayjs from "dayjs";
 
 const getRequiredDateFormat = (timeStamp, format = "MM-DD-YYYY") => {
@@ -18,6 +18,8 @@ function LineChart({ annotation, data }) {
                         format: "%Y-%m-%d",
                         precision: "day"
                     }}
+                  
+
                     yScale={{
                         type: 'linear',
                         min: 'auto',
@@ -40,7 +42,7 @@ function LineChart({ annotation, data }) {
                     markers={[
                         {
                             axis: 'y',
-                            value: annotation,
+                            value: annotation != 0? data[0]['annotation']:0,
                             legend: annotation != 0?data[0]['id']:"",
 
                             lineStyle: {
@@ -100,7 +102,7 @@ function LineChart({ annotation, data }) {
                     pointBorderColor={{ from: 'serieColor' }}
                     pointLabelYOffset={-12}
                     useMesh={true}
-
+                    
                     layers={[
                         'grid',
                         'markers',

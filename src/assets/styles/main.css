@@ -2250,6 +2250,9 @@ section.ant-layout.layout-content .ant-layout-content.content-ant {
   border-radius: 12px;
   box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
 }
+.mt-10{
+  margin-top: 10px;
+}
 .m-auto,
 .ml-auto {
   margin-left: auto !important;
@@ -2945,7 +2948,7 @@ section.ant-layout.ant-layout-has-sider.layout-dashboard.layout-profile
 }
 .news h2{
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
 }
 .news span{
   font-weight: 400;

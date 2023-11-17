@@ -17,6 +17,13 @@
   .companies-data .next,.companies-data .previous {
     display: none;
   }
+  .label.mt-10.detail{
+    margin-top: 0px;
+  }
+  .news h2{
+    font-weight: 700;
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 768px) {

@@ -10,7 +10,7 @@ const DateSliderPicker = ({ onPicker }) => {
         return current && current > dayjs().endOf('day');
     };
     return (
-        <Row justify="end">
+        <Row justify={window.innerWidth <= 600 ? 'center' : 'end'}>
             <Col >
                 <RangePicker
                     prevIcon

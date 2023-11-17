@@ -3,7 +3,7 @@ import React from "react";
 
 const News = ({data}) => {
     return (
-        <Row gutter={[24, 0]}>
+        <Row gutter={[24, 0]} className="mt-10">
             <Col xs={24} sm={24} md={24} lg={24} xl={24} className="label">
                 <h3>News</h3>
                 <Card bordered={false} className="criclebox">

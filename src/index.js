@@ -7,15 +7,15 @@ import { ConfigProvider } from 'antd';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const APP_THEME = {
-    colorPrimary:"#001529", //'#08c475', //'#00b96b',    background-color: #rgb(63, 63, 63);
+    colorPrimary:"#001529", 
     
     borderRadius: 10,
-    colorBgContainer:'#001529',//--color-primary-200: #5e43f3;--color-surface-100: #121212;
+    colorBgContainer:'#001529',
 
 }
 
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename='/portfolio_tracker_new'>
         <ConfigProvider>
             <App />
         </ConfigProvider>
