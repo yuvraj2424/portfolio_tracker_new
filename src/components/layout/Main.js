@@ -19,6 +19,12 @@ function Main({ children }) {
   let { pathname } = useLocation();
   pathname = pathname.replace("/", "");
 
+  useEffect(()=>{
+      if(window.innerWidth <= 600){
+        setFixed(false)
+      }
+  },[])
+
 
   return (
     <Layout
